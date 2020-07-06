@@ -1,4 +1,4 @@
-# guiabolso-frontend-code-challenge
+# chucknorrisjokes-challenge
 
 A web application used to display jokes about Chuck Norris.
 
@@ -14,7 +14,7 @@ A web application used to display jokes about Chuck Norris.
 Install it by cloning this repository.
 
 ```
-git clone git@github.com:adasantos/guiabolso-frontend-code-challenge.git 
+git clone git@github.com:adasantos/chucknorrisjokes-challenge.git
 ```
 
 ## Getting Started
