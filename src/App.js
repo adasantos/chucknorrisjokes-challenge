@@ -1,15 +1,18 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-import {JokeProvider} from './hooks/jokes';
+import GlobalStyle from './styles/global'
+
+import AppProvider from './hooks';
 import Routes from './routes'
 
-function App() {
+const App = () => {
   return (
   <BrowserRouter>
-    <JokeProvider>
+    <AppProvider>
       <Routes />
-    </JokeProvider>
+    </AppProvider>
+    <GlobalStyle />
   </BrowserRouter>
   );
 }
