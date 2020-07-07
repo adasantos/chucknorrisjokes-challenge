@@ -34,7 +34,7 @@ const Home = () => {
     <Container>
       <Header>
         <Title>CHUCK NORRIS JOKES</Title>
-        <Description>Select a category above to retrieve a random Joke of this topic.</Description>
+        <Description>Select a category below to retrieve a random Joke of this topic.</Description>
       </Header>
       <Content>
         <List>
